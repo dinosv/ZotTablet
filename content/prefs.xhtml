@@ -1,0 +1,81 @@
+<groupbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+    <label><html:h2>General Settings</html:h2></label>
+
+    <hbox align="center">
+        <html:label for="zottablet-dest-dir" style="min-width: 150px;">Tablet/External Folder:</html:label>
+        <html:input type="text" id="zottablet-dest-dir" style="flex: 1; margin-right: 8px;"></html:input>
+        <button id="zottablet-dest-dir-browse" label="Browse..."/>
+    </hbox>
+
+    <hbox align="center">
+        <html:label style="min-width: 150px;">Sync Mode:</html:label>
+        <menulist id="zottablet-mode">
+            <menupopup>
+                <menuitem value="1" label="Background (keep copy in Zotero)"/>
+                <menuitem value="2" label="Foreground (move file)"/>
+            </menupopup>
+        </menulist>
+    </hbox>
+
+    <checkbox id="zottablet-rename" label="Rename files when sending to tablet"/>
+</groupbox>
+
+<groupbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+    <label><html:h2>Subfolder Organization</html:h2></label>
+
+    <checkbox id="zottablet-subfolder" label="Use subfolders for organization"/>
+
+    <hbox align="center">
+        <html:label for="zottablet-subfolder-format" style="min-width: 150px;">Subfolder format:</html:label>
+        <html:input type="text" id="zottablet-subfolder-format" style="flex: 1;"></html:input>
+    </hbox>
+
+    <label value="Wildcards: %a = author, %y = year, %j = journal"/>
+</groupbox>
+
+<groupbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+    <label><html:h2>Tag Settings</html:h2></label>
+
+    <hbox align="center">
+        <html:label for="zottablet-tag-tablet" style="min-width: 150px;">Tag for files on tablet:</html:label>
+        <html:input type="text" id="zottablet-tag-tablet"></html:input>
+    </hbox>
+
+    <hbox align="center">
+        <html:label for="zottablet-tag-modified" style="min-width: 150px;">Tag for modified files:</html:label>
+        <html:input type="text" id="zottablet-tag-modified"></html:input>
+    </hbox>
+
+    <hbox align="center">
+        <html:label for="zottablet-tag-reading" style="min-width: 150px;">Tag for reading list:</html:label>
+        <html:input type="text" id="zottablet-tag-reading"></html:input>
+    </hbox>
+</groupbox>
+
+<groupbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+    <label><html:h2>Annotation Extraction</html:h2></label>
+
+    <checkbox id="zottablet-extract-on-sync" label="Extract annotations when syncing from tablet"/>
+    <checkbox id="zottablet-use-native" label="Use Zotero native annotations"/>
+    <checkbox id="zottablet-use-pdfjs" label="Use pdf.js for external annotations"/>
+</groupbox>
+
+<groupbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+    <label><html:h2>Project Folders</html:h2></label>
+
+    <vbox id="zottablet-project-folders"></vbox>
+
+    <button id="zottablet-add-project" label="Add Project Folder"/>
+</groupbox>
+
+<groupbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+    <label><html:h2>Actions</html:h2></label>
+
+    <button id="zottablet-create-searches" label="Create Saved Searches"/>
+</groupbox>
