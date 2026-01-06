@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ZotTablet",
+  "version": "1.1.0",
+  "description": "Manage PDFs for external reading: sync files to tablet/external folder, detect changes, and extract annotations",
+  "author": "ZotTablet Contributors",
+  "applications": {
+    "zotero": {
+      "id": "zottablet@zotero.org",
+      "update_url": "https://raw.githubusercontent.com/zottablet/zottablet/main/update.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "8.0.*"
+    }
+  }
+}

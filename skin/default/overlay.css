@@ -1,0 +1,19 @@
+/* ZotTablet Main UI Styles */
+
+/* Status column styles */
+.zottablet-status {
+    font-size: 11px;
+}
+
+.zottablet-status[value="Modified"] {
+    color: #e67e22;
+    font-weight: bold;
+}
+
+.zottablet-status[value="On Tablet"] {
+    color: #27ae60;
+}
+
+.zottablet-status[value="Reading"] {
+    color: #3498db;
+}

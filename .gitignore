@@ -1,0 +1,15 @@
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Serena MCP
+.serena/
+
+# Requirements docs (local planning)
+.requirements/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.xpi

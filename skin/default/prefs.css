@@ -1,0 +1,52 @@
+/* ZotTablet Preferences Styles */
+
+#zottablet-prefs {
+    padding: 10px;
+}
+
+#zottablet-prefs groupbox {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#zottablet-prefs h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+#zottablet-prefs hbox {
+    margin-bottom: 8px;
+}
+
+#zottablet-prefs label {
+    min-width: 150px;
+    margin-right: 8px;
+}
+
+#zottablet-prefs checkbox {
+    margin-bottom: 5px;
+}
+
+#zottablet-prefs description {
+    color: #666;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+#zottablet-project-folders {
+    margin-bottom: 10px;
+}
+
+#zottablet-project-folders hbox {
+    margin-bottom: 5px;
+}
+
+#zottablet-project-folders input {
+    margin-right: 8px;
+}
+
+/* Button styles */
+#zottablet-prefs button {
+    min-width: 80px;
+}
